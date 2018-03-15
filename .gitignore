@@ -21,7 +21,6 @@
 /tmp/sockets/*
 /tmp/test/*
 /vendor/rails
-/config/database.yml
 /nbproject
 redmine.tmproj
 serverlog
