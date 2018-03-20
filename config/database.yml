@@ -1,0 +1,25 @@
+production:
+  adapter: postgresql
+  database: bettermeans_development
+  host: localhost
+  min_messages: WARNING
+  username: postgres
+  password: tree
+
+development:
+  adapter: postgresql
+  database: bettermeans_development
+  host: localhost
+  min_messages: WARNING
+  schema_search_path: public
+  username: postgres
+  password: tree
+
+test:
+  adapter: postgresql
+  database: bettermeans_test
+  host: localhost
+  min_messages: WARNING
+  schema_search_path: public
+  username: postgres
+  password: tree
